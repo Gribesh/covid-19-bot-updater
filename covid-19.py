@@ -10,7 +10,7 @@ def update():
 
     while True:
         toast=ToastNotifier()
-        toast.show_toast("Covid-19 Updates", text,duration=20)
+        toast.show_toast("Covid-19 Updates", text,duration=30)
         time.sleep(10)
 
 update()
